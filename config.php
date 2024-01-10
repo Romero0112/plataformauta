@@ -12,13 +12,13 @@ require_once 'vendor/autoload.php';
 $google_client = new Google_Client();
 
 //Set the OAuth 2.0 Client ID
-$google_client->setClientId('502800413517-4h2gk5s6ovujhvkod3hkoh8khb6n45cu.apps.googleusercontent.com');
+$google_client->setClientId('775514301910-igcb4ts1d396edlit062020da657dpsi.apps.googleusercontent.com');
 
 //Set the OAuth 2.0 Client Secret key
-$google_client->setClientSecret('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');
+$google_client->setClientSecret('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');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('http://localhost/login_php/interfaz.php');
+$google_client->setRedirectUri('https://localhost/Login/');
 
 // to get the email and profile 
 $google_client->addScope('email');

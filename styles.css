@@ -1,8 +1,9 @@
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
-    margin-top: 20px;
+    margin-top: 14px;
     background-image: url("https://sistemaseducaciononline.uta.edu.ec/pluginfile.php/1/theme_adaptable/loginbgimage/1701194641/2_fondo-gris-deadv.jpg");
+    background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-color: #f2f2f2;
