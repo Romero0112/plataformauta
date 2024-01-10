@@ -18,7 +18,7 @@ $google_client->setClientId('775514301910-igcb4ts1d396edlit062020da657dpsi.apps.
 $google_client->setClientSecret('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');
 
 //Set the OAuth 2.0 Redirect URI
-$google_client->setRedirectUri('https://localhost/Login/');
+$google_client->setRedirectUri('http://localhost/plataformauta/');
 
 // to get the email and profile 
 $google_client->addScope('email');
