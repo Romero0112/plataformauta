@@ -1,0 +1,147 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin-top: 20px;
+    background-image: url("https://sistemaseducaciononline.uta.edu.ec/pluginfile.php/1/theme_adaptable/loginbgimage/1701194641/2_fondo-gris-deadv.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.encabezado-container {
+    width:  700px;
+    height: 125px;
+    margin: auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    position: relative;
+}
+
+.encabezado-container h2 {
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.encabezado-container h3 {
+    max-width: 60%;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.logo-container,
+.sello-container {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.logo-container {
+    left: 2;
+}
+
+.sello-container {
+    right: 0;
+}
+
+.logo-container img {
+    width: 135px;
+    height: auto;
+}
+
+.sello-container img {
+    width: 135px;
+    height: auto;
+}
+
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    width: 400px;
+    height: 380px;
+    background-color: rgba(255, 255, 255, 0.7);
+    margin: auto;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 100px;
+}
+
+.form-control {
+    width: 82%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size: 17px;
+}
+
+.form-control:focus {
+    outline: 3px solid #1E90FF;
+}   
+
+.button-acceder {
+    width: 82%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size: 17px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+a {
+    margin-top: 15px;
+    display: block;
+    color: #8B0000;
+    text-decoration: none;
+}
+
+.button-microsoft {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 17px;
+    /* background-color: rgba(255, 255, 255, 0.3); */
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button-microsoft img {
+vertical-align: middle;
+}
+
+.button-microsoft span {
+margin-top: -5px;
+}
+
+.button-cookies {
+    width: 35%;
+    padding: 10px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    font-size: 14px;
+    background-color: #333333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: auto;
+}
+
+a:hover {
+    text-decoration: underline;
+}
