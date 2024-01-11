@@ -88,6 +88,12 @@ if (isset($_SESSION['access_token'])) {
                 alt="">
         </div>
     </div>
+    <script>
+        // Mostrar la alerta solo si hay un mensaje de error
+        <?php if (!empty($error_message)) { ?>
+            alert("<?php echo $error_message; ?>");
+        <?php } ?>
+    </script>
     <div class="login-container">
         <div class="form-group" style="text-align: center;">
             <form method="post" action="index.php">
@@ -96,6 +102,7 @@ if (isset($_SESSION['access_token'])) {
                 <input type="password" name="password" id="password" class="form-control" placeholder="Contraseña"
                     autocomplete="current-password">
                 <button type="submit" name="btnacceder" class="button-acceder">Acceder</button>
+
                 <a href="https://sistemaseducaciononline.uta.edu.ec/login/forgot_password.php">¿Olvidó su
                     contraseña?</a>
                 <a href="registro.php">¿No tienes cuenta? Regístrate</a>
