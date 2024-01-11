@@ -38,47 +38,7 @@ if (isset($_SESSION['user_email_address'])) {
                     <div class="collapse navbar-collapse">
                         <div class="my-auto m-1"></div>
                         <ul class="navbar-nav ml-auto my-auto">
-
-                            <li class="nav-item navbarsearchsocial mx-md-1 my-auto d-md-block d-lg-none my-auto">
-                                <div id="searchinput-navbar-6591cc801d1056591cc8018f2a21" class="simplesearchform">
-                                    <div class="collapse" id="searchform-navbar">
-                                        <form autocomplete="off"
-                                            action="https://sistemaseducaciononline.uta.edu.ec/course/search.php"
-                                            method="get" accept-charset="utf-8"
-                                            class="mform form-inline searchform-navbar">
-                                            <input type="hidden" name="context" value="2">
-                                            <div class="input-group">
-                                                <label for="searchinput-6591cc801d1056591cc8018f2a21">
-                                                    <span class="sr-only">Course search</span>
-                                                </label>
-                                                <input type="text" id="searchinput-6591cc801d1056591cc8018f2a21"
-                                                    class="form-control withclear" placeholder="Course search"
-                                                    aria-label="Course search" name="q" data-region="input"
-                                                    autocomplete="off">
-                                                <a class="btn btn-close" data-action="closesearch"
-                                                    data-toggle="collapse" href="#searchform-navbar" role="button">
-                                                    <span class="fas fa-times" aria-hidden="true"></span>
-                                                    <span class="sr-only">Close</span>
-                                                </a>
-                                                <div class="input-group-append">
-                                                    <button type="submit" class="btn btn-submit" data-action="submit">
-                                                        <span class="fas fa-search" aria-hidden="true"></span>
-                                                        <span class="sr-only">Course search</span>
-                                                    </button>
-                                                </div>
-                                            </div>
-                                        </form>
-                                    </div>
-                                    <a class="btn btn-open rounded-0 nav-link" data-toggle="collapse"
-                                        data-action="opensearch" href="#searchform-navbar" role="button"
-                                        aria-expanded="false" aria-controls="searchform-navbar"
-                                        title="Toggle search input">
-                                        <span class="fas fa-search" aria-hidden="true"></span>
-                                        <span class="sr-only">Toggle search input</span>
-                                    </a>
-                                </div>
-                            </li>
-
+                        
                             <li id="nav-popover-container" class="my-auto mx-md-1 d-flex">
                                 <div class="popover-region collapsed popover-region-notifications"
                                     id="nav-notification-popover-container" data-userid="193"
@@ -213,7 +173,7 @@ if (isset($_SESSION['user_email_address'])) {
                                     <input type="hidden" name="context" value="2">
                                     <div class="input-group">
                                         <label for="searchinput-6591cc801d3596591cc8018f2a22">
-                                            <span class="sr-only">Course search</span>
+                                            <span class="sr-only">Buscar</span>
                                         </label>
                                         <input type="text" id="searchinput-6591cc801d3596591cc8018f2a22"
                                             class="form-control withclear" placeholder="Course search"
@@ -221,12 +181,12 @@ if (isset($_SESSION['user_email_address'])) {
                                         <a class="btn btn-close" data-action="closesearch" data-toggle="collapse"
                                             href="#searchform-navbar" role="button">
                                             <span class="fas fa-times" aria-hidden="true"></span>
-                                            <span class="sr-only">Close</span>
+                                            <span class="sr-only">Cerrar</span>
                                         </a>
                                         <div class="input-group-append">
                                             <button type="submit" class="btn btn-submit" data-action="submit">
                                                 <span class="fas fa-search" aria-hidden="true"></span>
-                                                <span class="sr-only">Course search</span>
+                                                <span class="sr-only">Buscar Curso</span>
                                             </button>
                                         </div>
                                     </div>
@@ -234,9 +194,9 @@ if (isset($_SESSION['user_email_address'])) {
                             </div>
                             <a class="btn btn-open rounded-0 nav-link" data-toggle="collapse" data-action="opensearch"
                                 href="#searchform-navbar" role="button" aria-expanded="false"
-                                aria-controls="searchform-navbar" title="Toggle search input">
+                                aria-controls="searchform-navbar" title="Entrada de busqueda">
                                 <i class="fas fa-search"></i>
-                                <span class="sr-only">Toggle search input</span>
+                                <span class="sr-only">Entrada de busqueda</span>
                             </a>
 
                         </div>
