@@ -17,7 +17,7 @@ if (isset($_SESSION['user_email_address'])) {
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="/profesor/css/styles.css">
+    <link rel="stylesheet" href="/profesor/css/style.css">
 </head>
 
 <body>
@@ -125,7 +125,7 @@ if (isset($_SESSION['user_email_address'])) {
                                         Grades
                                     </a>
                                     <a class="dropdown-item" href="https://sistemaseducaciononline.uta.edu.ec/calendar/view.php" title="Calendar">
-                                       Calendar
+                                        Calendar
                                     </a>
                                     <a class="dropdown-item" href="logout.php" title="Log out">
                                         Log out

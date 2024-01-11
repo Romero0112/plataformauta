@@ -2350,14 +2350,14 @@ div[id*='mod_assign-timer-'] {
     font-size: larger
 }
 
-@charset "UTF-8";.recording-thumbnail {
+/*@charset "UTF-8";.recording-thumbnail {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 0 0 0 0;
     transition: transform .2s;
     width: 113px;
     height: 64px
-}
+}*/
 
 .recording-thumbnail:hover {
     box-shadow: 0 0 2px 1px rgba(0,140,186,.5);
@@ -7086,13 +7086,13 @@ form#auto_submit {
     }
 }
 
-@charset "UTF-8";.vjs-modal-dialog .vjs-modal-dialog-content,.video-js .vjs-modal-dialog,.vjs-button>.vjs-icon-placeholder:before,.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+/*@charset "UTF-8";.vjs-modal-dialog .vjs-modal-dialog-content,.video-js .vjs-modal-dialog,.vjs-button>.vjs-icon-placeholder:before,.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%
-}
+}*/
 
 .vjs-button>.vjs-icon-placeholder:before,.video-js .vjs-big-play-button .vjs-icon-placeholder:before {
     text-align: center
