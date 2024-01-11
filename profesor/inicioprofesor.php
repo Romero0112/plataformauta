@@ -8,7 +8,6 @@ if (isset($_SESSION['user_email_address'])) {
     $user_email_address = $_SESSION['user_email_address'];
     $user_image = $_SESSION['user_image'];
 }
-
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -119,7 +118,7 @@ if (isset($_SESSION['user_email_address'])) {
                                     aria-label="User menu" title="">
                                     <span
                                         class="d-none d-md-inline-block mx-1 <?php echo isset($userfirstname) && isset($userlastname) ? '' : 'd-none'; ?>">
-                                        <?php echo $user_first_name . ' ' . $user_last_name; ?>
+                                        <?php echo $user_first_name. ' ' . $user_last_name; ?>
                                     </span>
                                     <img src="<?php echo $user_image; ?>" class="userinitials size-35" />
                                     <i class="fas fa-caret-down"></i>
