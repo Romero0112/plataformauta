@@ -5500,7 +5500,7 @@ body.path-mod-scheduler.jsenabled input.studentselectsubmit {
 
 #page-mod-scorm-player #scormpage div.yui3-u-1,#page-mod-scorm-player #scormpage div.yui3-u-3-4,#page-mod-scorm-player #scormpage div.yui3-u-1-5,#page-mod-scorm-player #scormpage div.yui3-u-1-24 {
     display: inline-block;
-    *display: inline;
+    display: inline;
     zoom:1;letter-spacing: normal;
     word-spacing: normal;
     vertical-align: top;
